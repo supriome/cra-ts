@@ -1,11 +1,12 @@
-import logo from './logo.svg';
+// eslint-disable-next-line
+import { useEffect } from 'react'
 import './App.css';
-
 function App() {
+  // eslint-disable-next-line
+  let hello = 'hi';
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
